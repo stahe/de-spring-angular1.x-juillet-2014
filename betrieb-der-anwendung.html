@@ -12,10 +12,10 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/de-spring-angular1.x-juillet-2014/ausfuhren-der-anwendung.html">
+        <link rel="canonical" href="https://stahe.github.io/de-spring-angular1.x-juillet-2014/betrieb-der-anwendung.html">
       
       
-        <link rel="prev" href="der-angular-js-client.html">
+        <link rel="prev" href="der-angular-client-js.html">
       
       
         <link rel="next" href="fazit.html">
@@ -29,7 +29,7 @@
     
     
       
-        <title>4. Ausführen der Anwendung - Client-Server-Beispiel – AngularJS 1.x / Spring 4</title>
+        <title>4. Betrieb der Anwendung - Client-Server-Beispiel – AngularJS 1.x / Spring 4</title>
       
     
     
@@ -94,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#4-ausfuhren-der-anwendung" class="md-skip">
+        <a href="#4-betrieb-der-anwendung" class="md-skip">
           Skip to content
         </a>
       
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              4. Ausführen der Anwendung
+              4. Betrieb der Anwendung
             
           </span>
         </div>
@@ -305,14 +305,14 @@
   
   
     <li class="md-nav__item">
-      <a href="einleitung.html" class="md-nav__link">
+      <a href="einfuhrung.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    1. Einleitung
+    1. Einführung
   
 
     
@@ -359,14 +359,14 @@
   
   
     <li class="md-nav__item">
-      <a href="der-angular-js-client.html" class="md-nav__link">
+      <a href="der-angular-client-js.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    3. Der Angular-JS-Client
+    3. Der Angular-Client JS
   
 
     
@@ -402,7 +402,7 @@
   <span class="md-ellipsis">
     
   
-    4. Ausführen der Anwendung
+    4. Betrieb der Anwendung
   
 
     
@@ -413,14 +413,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="ausfuhren-der-anwendung.html" class="md-nav__link md-nav__link--active">
+      <a href="betrieb-der-anwendung.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. Ausführen der Anwendung
+    4. Betrieb der Anwendung
   
 
     
@@ -468,10 +468,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#43-cors-header" class="md-nav__link">
+  <a href="#43-die-header-cors" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.3. CORS-Header
+        4.3. Die Header CORS
       
     </span>
   </a>
@@ -490,10 +490,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#45-bereitstellung-des-angular-clients-auf-einem-android-smartphone-emulator" class="md-nav__link">
+  <a href="#45-bereitstellung-des-angular-clients-auf-dem-emulator-eines-android-smartphones" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.5. Bereitstellung des Angular-Clients auf einem Android-Smartphone-Emulator
+        4.5. Bereitstellung des Angular-Clients auf dem Emulator eines Android-Smartphones
       
     </span>
   </a>
@@ -579,13 +579,13 @@
 
 
 
-<p><a id="refheading112468271450484"></a></p>
-<h1 id="4-ausfuhren-der-anwendung">4. <span style="color: #365f91">Ausführen der Anwendung</span></h1>
-<p>Wir möchten die Anwendung nun außerhalb der STS-IDE (für den Server) und von WebStorm (für den Client) ausführen.</p>
-<p><a id="refheading112470271450484"></a></p>
+<p><span id="refheading112468271450484" name="refheading112468271450484" class="odt-bookmark-anchor"></span></p>
+<h1 id="4-betrieb-der-anwendung">4. <span style="color: #365f91">Betrieb der Anwendung</span></h1>
+<p>Wir möchten die Anwendung nun außerhalb von IDE, STS (für den Server) und Webstorm (für den Client) betreiben.</p>
+<p><span id="refheading112470271450484" name="refheading112470271450484" class="odt-bookmark-anchor"></span></p>
 <h2 id="41-bereitstellung-des-webdienstes-auf-einem-tomcat-server">4.1. <span style="color: #4f81bd">Bereitstellung des Webdienstes auf einem Tomcat-Server</span></h2>
-<p>In Abschnitt<a href="#refheading570371429907001"><u><span style="color: #0563c1"> 2.11.9</span></u></a> haben wir gesehen, wie man ein WAR-Archiv für Tomcat erstellt. Wir wiederholen den Vorgang hier. Um die bestehende Struktur beizubehalten, duplizieren wir zunächst das Eclipse-Projekt [rdvmedecins-webapi-v3] in [rdvmedecins-webapi-v4].</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F6000000A1154D1075.png" width="172" height="113" style="display:inline-block; margin:4px;width:4.56cm;height:2.985cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F6000000A1154D1075.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+<p>In Abschnitt<a href="der-spring-4-server.html#refheading570371429907001"><u><span style="color: #0563c1"> 2.11.9</span></u></a> haben wir gesehen, wie man ein WAR-Archiv für Tomcat erstellt. Wir wiederholen diesen Vorgang hier. Um die bestehenden Daten zu erhalten, duplizieren wir zunächst das Eclipse-Projekt [rdvmedecins-webapi-v3] in [rdvmedecins-webapi-v4].</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F6000000A1154D1075.png" width="172" height="113" style="display:inline-block; margin:4px;width:4.56cm;height:2.979cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F6000000A1154D1075.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Die Datei [pom.xml] wird wie folgt geändert:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-xml">
@@ -594,7 +594,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span><span style="color:#000000">rdvmedecins-webapi-v4</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">artifactId</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span><span style="color:#000000">0.0.1-SNAPSHOT</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">version</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span><span style="color:#000000">war</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">packaging</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span><span style="color:#000000">rdvmedecins-webapi-v3</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">name</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">description</span><span style="color:#008080">&gt;</span><span style="color:#000000">Gestion de RV Médecins</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">description</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">parent</span><span style="color:#008080">&gt;</span></span></span>
@@ -624,76 +624,76 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">dependencies</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Änderungen müssen an zwei Stellen vorgenommen werden:</p>
+<p>Die Änderungen müssen an zwei Stellen vorgenommen werden:</p>
 <ul>
-  <li>Zeile 5: Sie müssen angeben, dass Sie eine WAR-Datei (Web ARchive) generieren möchten;
+  <li>Zeile 5: Es muss angegeben werden, dass ein WAR-Archiv (Web ARchive) generiert werden soll;
   </li>
-  <li>Zeilen 23–27: Sie müssen eine Abhängigkeit zum Artefakt [<span style="color: #ff3333">spring-boot-starter-tomcat</span>] hinzufügen. Dieses Artefakt enthält alle Tomcat-Klassen in den Abhängigkeiten des Projekts;
+  <li>Zeilen 23–27: Es muss eine Abhängigkeit zum Artefakt [spring-boot-starter-tomcat] hinzugefügt werden. Dieses Artefakt fügt alle Tomcat-Klassen in die Projektabhängigkeiten ein;
   </li>
-  <li>Zeile 26: Dieses Artefakt ist [provided], was bedeutet, dass die entsprechenden Dateien nicht in die generierte WAR-Datei aufgenommen werden. Stattdessen befinden sich diese Dateien auf dem Tomcat-Server, auf dem die Anwendung ausgeführt wird;
+  <li>Zeile 26: Dieses Artefakt ist [provided], d. h., die entsprechenden Archive werden nicht in die generierte WAR-Datei aufgenommen. Diese Archive befinden sich nämlich auf dem Tomcat-Server, auf dem die Anwendung ausgeführt wird;
   </li>
 </ul>
 
-<p>Sie müssen außerdem die Webanwendung konfigurieren. Wenn keine [web.xml]-Datei vorhanden ist, erfolgt dies über eine Klasse, die [<span style="color: #000000">SpringBootServletInitializer</span>] erweitert:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F400000094D667F11D.png" width="171" height="104" style="display:inline-block; margin:4px;width:4.521cm;height:2.743cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F400000094D667F11D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+<p>Außerdem muss die Webanwendung konfiguriert werden. Da die Datei [web.xml] fehlt, erfolgt dies über eine Klasse, die von [SpringBootServletInitializer] erbt:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F400000094D667F11D.png" width="171" height="104" style="display:inline-block; margin:4px;width:4.521cm;height:2.739cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F400000094D667F11D.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Die Klasse [ApplicationInitializer] sieht wie folgt aus:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">package</span><span style="color:#000000"> rdvmedecins.web.config;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.boot.builder.SpringApplicationBuilder;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">import</span><span style="color:#000000"> org.springframework.boot.context.web.SpringBootServletInitializer;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#7f0055">public</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000"> ApplicationInitializer </span><span style="font-weight:bold;color:#7f0055">extends</span><span style="color:#000000"> SpringBootServletInitializer {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Override</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">protected</span><span style="color:#000000"> SpringApplicationBuilder configure(SpringApplicationBuilder application) {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        </span><span style="font-weight:bold;color:#7f0055">return</span><span style="color:#000000"> application.sources(AppConfig.</span><span style="font-weight:bold;color:#7f0055">class</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">    }</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
 <ul>
-  <li>Zeile 6: Die Klasse [<span style="color: #000000">ApplicationInitializer</span>] erweitert die Klasse [<span style="color: #000000">SpringBootServletInitializer</span>];
+  <li>Zeile 6: Die Klasse [ApplicationInitializer] erweitert die Klasse [SpringBootServletInitializer];
   </li>
-  <li>Zeile 8: Die Methode [configure] wird überschrieben (Zeile 7);
+  <li>Zeile 8: Die Methode [configure] wird neu definiert (Zeile 7);
   </li>
-  <li>Zeile 9: Die Klasse [AppConfig] dient zur Konfiguration des Projekts;
+  <li>Zeile 9: Es wird die Klasse [AppConfig] bereitgestellt, die das Projekt konfiguriert;
   </li>
 </ul>
 
-<p>Sobald dies erledigt ist, müssen Sie möglicherweise das Maven-Projekt aktualisieren (ich musste dies tun): [Rechtsklick auf das Projekt / Maven / Projekt aktualisieren] oder [Alt-F5].</p>
-<p>Um das Projekt auszuführen, gehen Sie wie folgt vor:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005750000017652375D89.png" width="680" height="182" style="display:inline-block; margin:4px;width:17.999cm;height:4.819cm;" class="odt-zoomable" data-zoom-src="images/10000000000005750000017652375D89.png" /></td></tr></table>
+<p>Anschließend muss möglicherweise das Maven-Projekt aktualisiert werden (ich musste dies tun): [clic droit sur projet / Maven / Update project] oder [Alt-F5].</p>
+<p>Um das Projekt auszuführen, kann man wie folgt vorgehen:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005750000017652375D89.png" width="680" height="182" style="display:inline-block; margin:4px;width:17.999cm;height:4.817cm;" class="odt-zoomable" data-zoom-src="images/10000000000005750000017652375D89.png" /></td></tr></table>
 
 <ul>
-  <li>Führen Sie in [1] das Projekt auf einem der in der Eclipse-IDE registrierten Server aus;
+  <li>Bei [1] führt man das Projekt auf einem der in IDE Eclipse registrierten Server aus;
   </li>
-  <li>Wählen Sie in [2] die Option [tc Server Developer] aus, die als Standardoption voreingestellt ist. Dabei handelt es sich um eine Variante von Tomcat;
+  <li>in [2] wählt man [tc Server Developer] aus, das standardmäßig vorhanden ist. Es handelt sich um eine Variante von Tomcat;
   </li>
 </ul>
 
-<p>Sie erhalten das folgende Ergebnis:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001F400000138F1D94013.png" width="350" height="218" style="display:inline-block; margin:4px;width:9.26cm;height:5.779cm;" class="odt-zoomable" data-zoom-src="images/10000000000001F400000138F1D94013.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+<p>Man erhält folgendes Ergebnis:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000001F400000138F1D94013.png" width="350" height="218" style="display:inline-block; margin:4px;width:9.26cm;height:5.78cm;" class="odt-zoomable" data-zoom-src="images/10000000000001F400000138F1D94013.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Das ist normal. Denken Sie daran, dass der Webdienst die URL [/] nicht in seinen Methoden enthält. Wenn Sie die URL [/getAllMedecins] aufrufen, erhalten Sie folgende Antwort:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002620000015B5448B8AD.png" width="427" height="243" style="display:inline-block; margin:4px;width:11.299cm;height:6.428cm;" class="odt-zoomable" data-zoom-src="images/10000000000002620000015B5448B8AD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+<p>Das ist normal. Zur Erinnerung: Der Webdienst verfügt in seinen Methoden nicht über URL und [/]. Wenn man URL und [/getAllMedecins] ausprobiert, erhält man folgende Antwort:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002620000015B5448B8AD.png" width="427" height="243" style="display:inline-block; margin:4px;width:11.299cm;height:6.421cm;" class="odt-zoomable" data-zoom-src="images/10000000000002620000015B5448B8AD.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
 <p>Das ist normal. Der Webdienst ist geschützt.</p>
 <p>Starten wir nun den Client [rdvmedecins-angular-v2] in WebStorm:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000056E000000D7B5440FB6.png" width="680" height="105" style="display:inline-block; margin:4px;width:17.999cm;height:2.783cm;" class="odt-zoomable" data-zoom-src="images/100000000000056E000000D7B5440FB6.png" /></td></tr></table>
 
-<p>Geben Sie unter [1] die URL des neuen Webdienstes [http://localhost:8080/rdvmedecins-webapi-v4] ein. Wir erhalten folgendes Ergebnis:</p>
-<p><img src="images/10000000000004B4000002A9BA88E4D6.png" width="794" height="449" style="width:21.001cm;height:11.878cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004B4000002A9BA88E4D6.png" /></p>
-<p>Um die Anwendung außerhalb der STS-IDE auszuführen, gibt es verschiedene Lösungen. Hier ist eine davon.</p>
+<p>In [1] geben wir den URL des neuen Webdienstes [http://localhost:8080/rdvmedecins-webapi-v4] ein. Wir erhalten folgendes Ergebnis:</p>
+<p><img src="images/10000000000004B4000002A9BA88E4D6.png" width="794" height="449" style="width:21.001cm;height:11.89cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004B4000002A9BA88E4D6.png" /></p>
+<p>Um die Anwendung außerhalb von IDE STS auszuführen, gibt es verschiedene Möglichkeiten. Hier ist eine davon.</p>
 <p>Laden Sie eine Version von Tomcat [http://tomcat.apache.org/download-80.cgi] (Juli 2014) herunter:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000500000001FFCB6B987D.png" width="640" height="255" style="display:inline-block; margin:4px;width:16.933cm;height:6.759cm;" class="odt-zoomable" data-zoom-src="images/1000000000000500000001FFCB6B987D.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000500000001FFCB6B987D.png" width="640" height="256" style="display:inline-block; margin:4px;width:16.933cm;height:6.761cm;" class="odt-zoomable" data-zoom-src="images/1000000000000500000001FFCB6B987D.png" /></td></tr></table>
 
-<p>Wählen Sie unter [1] eine komprimierte Version aus und entpacken Sie diese unter [2]. Kehren Sie zu STS zurück:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005A7000001B552C53DAA.png" width="680" height="205" style="display:inline-block; margin:4px;width:17.999cm;height:5.436cm;" class="odt-zoomable" data-zoom-src="images/10000000000005A7000001B552C53DAA.png" /></td></tr></table>
+<p>Man wählt in [1] eine ZIP-Version aus und entpackt sie in [2]. Man kehrt zurück zu STS:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005A7000001B552C53DAA.png" width="680" height="205" style="display:inline-block; margin:4px;width:17.999cm;height:5.435cm;" class="odt-zoomable" data-zoom-src="images/10000000000005A7000001B552C53DAA.png" /></td></tr></table>
 
 <ul>
-  <li>Klicken Sie auf der Registerkarte [Server] mit der rechten Maustaste auf die Anwendung [rdvmedecins-webapi-v4] und wählen Sie die Option [Bereitstellungsort durchsuchen];
+  <li>Auf der Registerkarte [Servers] klicken wir mit der rechten Maustaste auf die Anwendung [rdvmedecins-webapi-v4] und wählen die Option [Browse Deployment Location] aus;
   </li>
   <li>in [4]: Kopieren Sie den Ordner [rdvmedecins-webapi-v4];
   </li>
@@ -702,280 +702,280 @@
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000045E000001F122FC5F51.png" width="559" height="249" style="display:inline-block; margin:4px;width:14.79cm;height:6.576cm;" class="odt-zoomable" data-zoom-src="images/100000000000045E000001F122FC5F51.png" /></td></tr></table>
 
 <ul>
-  <li>Fügen Sie in [5] den Ordner [rdvmedecins-webapi-v4] in den Tomcat-Ordner [webapps] ein;
+  <li>in [5]: Fügen Sie den Ordner [rdvmedecins-webapi-v4] in den Ordner [webapps] von Tomcat ein;
   </li>
-  <li>Führen Sie in [6] die Befehlsdatei [startup.bat] aus (der in STS integrierte Tomcat-Server muss angehalten sein). Es öffnet sich ein DOS-Fenster, in dem die Tomcat-Protokolle angezeigt werden. Diese sollten zeigen, dass die Anwendung [rdvmedecins-webapi-v4] gestartet wurde.
+  <li>in [6] führen Sie die Skriptdatei [startup.bat] aus (der in STS integrierte Tomcat-Server muss zuvor beendet worden sein). Es öffnet sich ein Fenster mit der Bezeichnung DOS, in dem die Tomcat-Protokolle angezeigt werden. Diese sollten belegen, dass die Anwendung [rdvmedecins-webapi-v4] gestartet wurde.
   </li>
 </ul>
 
 <p>Um dies zu überprüfen, führen Sie den Angular-Client [rdvmedecins-angular-v2] erneut in WebStorm aus:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000573000000CDB4E412AB.png" width="680" height="100" style="display:inline-block; margin:4px;width:17.999cm;height:2.646cm;" class="odt-zoomable" data-zoom-src="images/1000000000000573000000CDB4E412AB.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000573000000CDB4E412AB.png" width="680" height="100" style="display:inline-block; margin:4px;width:17.999cm;height:2.644cm;" class="odt-zoomable" data-zoom-src="images/1000000000000573000000CDB4E412AB.png" /></td></tr></table>
 
-<p>Geben Sie in [1] die URL des neuen Webdienstes [http://localhost:8080/rdvmedecins-webapi-v4] ein. Sie sehen das folgende Ergebnis:</p>
-<p><img src="images/10000000000004B4000002A9BA88E4D6.png" width="794" height="449" style="width:21.001cm;height:11.878cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004B4000002A9BA88E4D6.png" /></p>
-<p><a id="refheading112472271450484"></a></p>
+<p>In [1] wird die URL des neuen Webdienstes [http://localhost:8080/rdvmedecins-webapi-v4] eingegeben. Man erhält folgendes Ergebnis:</p>
+<p><img src="images/10000000000004B4000002A9BA88E4D6.png" width="794" height="449" style="width:21.001cm;height:11.89cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000004B4000002A9BA88E4D6.png" /></p>
+<p><span id="refheading112472271450484" name="refheading112472271450484" class="odt-bookmark-anchor"></span></p>
 <h2 id="42-bereitstellung-des-angular-clients-auf-dem-tomcat-server">4.2. <span style="color: #4f81bd">Bereitstellung des Angular-Clients auf dem Tomcat-Server</span></h2>
-<p>Nachdem der Webdienst nun auf Tomcat bereitgestellt wurde, werden wir nun auch den Angular-Client auf einem Server bereitstellen. Dies könnte durchaus der Server sein, auf dem der Webdienst bereits gehostet wird. Wir werden diesen Ansatz wählen.</p>
-<p>Zunächst duplizieren wir den Client [rdvmedecins-angular-v2] als [rdvmedecins-angular-v3] und nehmen die folgenden Änderungen vor:</p>
+<p>Nachdem der Webdienst nun auf Tomcat bereitgestellt wurde, werden wir nun auch den Angular-Client auf einem Server bereitstellen. Dies kann durchaus derselbe Server sein, auf dem bereits der Webdienst gehostet wird. Wir entscheiden uns für diesen Weg.</p>
+<p>Zunächst duplizieren wir den Client [rdvmedecins-angular-v2] in [rdvmedecins-angular-v3] und nehmen folgende Änderungen vor:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000003980000019CF396B9A2.png" width="460" height="206" style="display:inline-block; margin:4px;width:12.171cm;height:5.45cm;" class="odt-zoomable" data-zoom-src="images/10000000000003980000019CF396B9A2.png" /></td></tr></table>
 
 <ul>
-  <li>In [1] wurde alles in einen Ordner namens [ app] verschoben;
+  <li>in [1]: Alles wurde in den Ordner [app] „ “ verschoben;
   </li>
-  <li>in [1] haben wir den Ordner [bower-components] entfernt, der die verschiedenen für das Projekt erforderlichen CSS- und JS-Bibliotheken enthielt. Alle diese Elemente wurden in den Ordner [lib] kopiert [2];
+  <li>in [1] wurde der Ordner [bower-components] gelöscht, der die verschiedenen Bibliotheken CSS und JS enthielt, die für das Projekt erforderlich waren. Alle diese Elemente wurden in den Ordner [lib] [2] kopiert;
   </li>
   <li>in [1] wurde die Datei [app.html] in [index.html] umbenannt;
   </li>
 </ul>
 
-<p>Die Datei [index.html] wurde angepasst, um den geänderten Pfaden der verwendeten Ressourcen Rechnung zu tragen:</p>
+<p>Die Datei [index.html] wurde angepasst, um die geänderten Pfade der verwendeten Ressourcen zu berücksichtigen:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-html">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span> <span style="color:#008080">html&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">html</span> <span style="color:#7f007f">ng-app</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;rdvmedecins&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">head</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">title</span><span style="color:#008080">&gt;</span><span style="color:#000000">RdvMedecins</span><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">title</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">&lt;!-- on CSS --&gt;</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#000000">&lt;!-- das CSS --&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">...</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">link</span> <span style="color:#7f007f">href</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/bootstrap-theme.min.css&quot;</span> <span style="color:#7f007f">rel</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;stylesheet&quot;</span><span style="color:#008080">/&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">link</span> <span style="color:#7f007f">href</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/bootstrap-select.min.css&quot;</span> <span style="color:#7f007f">rel</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;stylesheet&quot;</span><span style="color:#008080">/&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">head</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- controller [appCtrl], model [app] --&gt;</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- Controller [appCtrl], Vorlage [app] --&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">body</span> <span style="color:#7f007f">ng-controller</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;appCtrl&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">div</span> <span style="color:#7f007f">class</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;container&quot;</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#008080">...</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">div</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- Bootstrap core JavaScript ================================================== --&gt;</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- Bootstrap-Kern JavaScript ================================================== --&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/jquery.min.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/bootstrap.min.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/bootstrap-select.min.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/footable.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- angular js --&gt;</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- AngularJS --&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/angular.min.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/ui-bootstrap-tpls.min.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/angular-route.min.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/angular-translate.min.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">script</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text/javascript&quot;</span> <span style="color:#7f007f">src</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;lib/angular-base64.min.js&quot;</span><span style="color:#008080">&gt;&lt;/</span><span style="color:#3f7f7f">script</span><span style="color:#008080">&gt;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- modules --&gt;</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- Module --&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- services --&gt;</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- Dienste --&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- guidelines --&gt;</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- Direktiven --&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- controllers --&gt;</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">&lt;!-- Controller --&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">....</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">body</span><span style="color:#008080">&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;/</span><span style="color:#3f7f7f">html</span><span style="color:#008080">&gt;</span></span></span>
 </code></pre></div>
 
-<p>Außerdem wurde der [loginCtrl]-Controller so angepasst, dass er auf den richtigen Server verweist, sodass der Benutzer die URL nicht eingeben muss:</p>
+<p>Außerdem wurde der Controller [loginCtrl] so angepasst, dass er auf den richtigen Server verweist, um zu vermeiden, dass der Benutzer seine URL eingeben muss:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content">// credentials</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// Anmeldedaten</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">app.serverUrl = </span><span style="color:#2a00ff">&quot;http://localhost:8080/rdvmedecins-webapi-v4&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">app.username = </span><span style="color:#2a00ff">&quot;admin&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">app.password = </span><span style="color:#2a00ff">&quot;admin&quot;</span><span style="color:#000000">;</span></span></span>
 </code></pre></div>
 
-<p>Nachdem dies erledigt ist, führen wir nun die Datei [index.html] aus:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F900000184DBAA64E0.png" width="174" height="272" style="display:inline-block; margin:4px;width:4.611cm;height:7.184cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F900000184DBAA64E0.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000DE0000006C4B136E18.png" width="155" height="76" style="display:inline-block; margin:4px;width:4.11cm;height:1.998cm;" class="odt-zoomable" data-zoom-src="images/10000000000000DE0000006C4B136E18.png" /></td></tr></table>
+<p>Nachdem dies erledigt ist, führen wir die Datei [index.html] aus:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F900000184DBAA64E0.png" width="174" height="271" style="display:inline-block; margin:4px;width:4.611cm;height:7.181cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F900000184DBAA64E0.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000DE0000006C4B136E18.png" width="155" height="76" style="display:inline-block; margin:4px;width:4.11cm;height:2cm;" class="odt-zoomable" data-zoom-src="images/10000000000000DE0000006C4B136E18.png" /></td></tr></table>
 
-<p>Anschließend melden wir uns beim Webdienst an. Es sollte funktionieren. Sobald dies überprüft ist, stoppen wir den Tomcat-Server. Wir werden den integrierten STS-Server wiederverwenden.</p>
-<p>Kopieren Sie in STS den gesamten Inhalt des Ordners [rdvmedecins-angular-v3/app] in den Ordner [webapp] des Projekts [rdvmedecins-webapi-v4] (Registerkarte <em>„Navigator“</em>) [1]:</p>
+<p>Anschließend stellen wir eine Verbindung zum Webdienst her. Das sollte funktionieren. Nachdem wir dies überprüft haben, stoppen wir den Tomcat-Server. Wir werden den integrierten Server von STS wiederverwenden.</p>
+<p>Kopieren wir in STS den gesamten Inhalt des Ordners [rdvmedecins-angular-v3/app] in den Ordner [webapp] des Projekts [rdvmedecins-webapi-v4] (Registerkarte <em>Navigator</em>) [1]:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000038F000002644A182322.png" width="456" height="306" style="display:inline-block; margin:4px;width:12.053cm;height:8.096cm;" class="odt-zoomable" data-zoom-src="images/100000000000038F000002644A182322.png" /></td></tr></table>
 
-<p>Starten Sie anschließend [2] den STS-VMware-Server und rufen Sie die URL [http://localhost:8080/rdvmedecins-webapi-v4/app/index.html] auf:</p>
+<p>Anschließend starten wir [2], den Server VMware von STS, und rufen dann URL und [http://localhost:8080/rdvmedecins-webapi-v4/app/index.html] auf:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000034D000002C10CB0CB6F.png" width="423" height="353" style="display:inline-block; margin:4px;width:11.18cm;height:9.327cm;" class="odt-zoomable" data-zoom-src="images/100000000000034D000002C10CB0CB6F.png" /></td></tr></table>
 
-<p>Unter [3] tritt ein Berechtigungsproblem auf. Das ist nicht überraschend, da wir den Webdienst gesichert haben. Wir müssen festlegen, dass der Zugriff auf die Datei [/app/index.html] uneingeschränkt ist. Kehren wir zu Eclipse zurück:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F4000000CD22F5BACE.png" width="171" height="144" style="display:inline-block; margin:4px;width:4.521cm;height:3.798cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F4000000CD22F5BACE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+<p>Bei [3] gibt es ein Berechtigungsproblem. Das ist nicht verwunderlich, da wir den Webdienst geschützt haben. Wir müssen festlegen, dass der Zugriff auf die Datei [/app/index.html] frei ist. Kehren wir zu Eclipse zurück:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000F4000000CD22F5BACE.png" width="171" height="144" style="display:inline-block; margin:4px;width:4.521cm;height:3.799cm;" class="odt-zoomable" data-zoom-src="images/10000000000000F4000000CD22F5BACE.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Denken Sie daran, dass die Zugriffsberechtigungen in der Klasse [SecurityConfig] definiert wurden. Ändern wir diese wie folgt:</p>
+<p>Wir erinnern uns, dass die Zugriffsrechte in der Klasse [SecurityConfig] festgelegt wurden. Ändern wir diese wie folgt:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-java">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#646464">@Override</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">protected</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">void</span><span style="color:#000000"> configure(HttpSecurity http) </span><span style="font-weight:bold;color:#7f0055">throws</span><span style="color:#000000"> Exception {</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// CSRF</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        http.csrf().disable();</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// the password is transmitted by the header Authorization: Basic xxxx</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Das Passwort wird über den Header „Authorization: Basic xxxx“ übermittelt</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">        http.httpBasic();</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// the HTTP OPTIONS method must be authorized for all</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Die Methode HTTP OPTIONS muss für alle autorisiert sein</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        http.authorizeRequests() </span><span style="color:#3f7f5f">//</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">                .antMatchers(HttpMethod.</span><span style="font-style:italic;color:#0000c0">OPTIONS</span><span style="color:#000000">, </span><span style="color:#2a00ff">&quot;/&quot;</span><span style="color:#000000">, </span><span style="color:#2a00ff">&quot;/**&quot;</span><span style="color:#000000">).permitAll();</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// the [app] folder is accessible to all</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Der Ordner „[app]“ ist für alle zugänglich</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        http.authorizeRequests() </span><span style="color:#3f7f5f">//</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">                .antMatchers(HttpMethod.</span><span style="font-style:italic;color:#0000c0">GET</span><span style="color:#000000">, </span><span style="color:#2a00ff">&quot;/app&quot;</span><span style="color:#000000">, </span><span style="color:#2a00ff">&quot;/app/**&quot;</span><span style="color:#000000">).permitAll();</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// only the ADMIN role can use the application</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">        <span style="color:#000000">// Nur die Rolle ADMIN darf die Anwendung nutzen</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">        http.authorizeRequests() </span><span style="color:#3f7f5f">//</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">                .antMatchers(&quot;/&quot;, &quot;/**&quot;) // all URL</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">                .antMatchers(&quot;/&quot;, &quot;/**&quot;) // alle URL</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">                .hasRole(</span><span style="color:#2a00ff">&quot;ADMIN&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 </code></pre></div>
 
 <ul>
-  <li>Zeilen 11–12: Wir gewähren allen Benutzern die Berechtigung, den Ordner [app] und dessen Inhalt zu lesen. Dazu folgen wir dem Beispiel der vorherigen Zeilen.
+  <li>Zeilen 11–12: Wir gewähren allen Benutzern Lesezugriff auf den Ordner [app] und dessen Inhalt. Dabei orientieren wir uns an den vorhergehenden Zeilen.
   </li>
 </ul>
 
-<p>Starten Sie nun den STS-Tomcat-Server neu und rufen Sie die URL [http://localhost:8080/rdvmedecins-webapi-v4/app/index.html] erneut auf:</p>
-<p><img src="images/100000000000060700000238D88F7EC9.png" width="670" height="247" style="width:17.729cm;height:6.526cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000060700000238D88F7EC9.png" /></p>
-<p>Diesmal funktioniert es.</p>
-<p><a id="refheading112474271450484"></a></p>
-<h2 id="43-cors-header">4.3. <span style="color: #4f81bd">CORS-Header</span></h2>
-<p>Sie erinnern sich vielleicht, dass wir uns mit der Handhabung von CORS-Headern ziemlich schwergetan haben. Im vorherigen Beispiel:</p>
+<p>Starten wir nun den Tomcat-Server von STS neu und rufen wir anschließend erneut die Dateien URL und [http://localhost:8080/rdvmedecins-webapi-v4/app/index.html] auf:</p>
+<p><img src="images/100000000000060700000238D88F7EC9.png" width="670" height="247" style="width:17.729cm;height:6.525cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/100000000000060700000238D88F7EC9.png" /></p>
+<p>Diesmal klappt es.</p>
+<p><span id="refheading112474271450484" name="refheading112474271450484" class="odt-bookmark-anchor"></span></p>
+<h2 id="43-die-header-cors">4.3. <span style="color: #4f81bd">Die Header CORS</span></h2>
+<p>Vielleicht erinnern Sie sich daran, dass wir uns schwer getan haben, die Header CORS zu verarbeiten. Im vorherigen Beispiel:</p>
 <ul>
-  <li>befindet sich der Webdienst unter der URL [http://localhost:8080/rdvmedecins-webapi-v4];
+  <li>befindet sich der Webdienst unter URL [http://localhost:8080/rdvmedecins-webapi-v4];
   </li>
-  <li>befindet sich der HTML-Client unter der URL [http://localhost:8080/rdvmedecins-webapi-v4/app];
+  <li>der Client HTML befindet sich auf dem Server URL [http://localhost:8080/rdvmedecins-webapi-v4/app];
   </li>
 </ul>
 
-<p>Der HTML-Client und der Webdienst befinden sich also auf demselben Server [http://localhost:8080]. Es gibt keine CORS-Konflikte, da diese nur auftreten, wenn sich Client und Server nicht in derselben Domäne befinden. Das sollten wir überprüfen können. Kehren wir zu STS zurück:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000EA000000C709556DD7.png" width="164" height="139" style="display:inline-block; margin:4px;width:4.33cm;height:3.681cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EA000000C709556DD7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+<p>Der Client HTML und der Webdienst befinden sich also auf demselben Server [http://localhost:8080]. Es gibt daher keine Konflikte mit CORS, da diese nur auftreten, wenn sich Client und Server nicht in derselben Domäne befinden. Das sollte sich überprüfen lassen. Wir kehren zu STS zurück:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000000EA000000C709556DD7.png" width="164" height="139" style="display:inline-block; margin:4px;width:4.33cm;height:3.679cm;" class="odt-zoomable" data-zoom-src="images/10000000000000EA000000C709556DD7.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Ob CORS-Header generiert werden oder nicht, wird durch einen in der Klasse [ApplicationModel] definierten booleschen Wert gesteuert:</p>
+<p>Ob die Header CORS generiert werden oder nicht, wird durch einen booleschen Wert gesteuert, der in der Klasse [ApplicationModel] definiert ist:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// données de configuration</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// Konfigurationsdaten</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">boolean</span><span style="color:#000000"> </span><span style="color:#0000c0">CORSneeded</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">true</span><span style="color:#000000">;</span></span></span>
 </code></pre></div>
 
-<p>Wir setzen den obigen booleschen Wert auf <strong>false</strong>, starten den Webdienst neu und rufen die URL [http://localhost:8080/rdvmedecins-webapi-v4/app/index.html] erneut auf. Wir können sehen, dass die Anwendung funktioniert.</p>
-<p><a id="refheading112476271450484"></a></p>
+<p>Wir setzen den oben genannten Booleschen Wert auf <strong>„false“</strong>, starten den Webdienst neu und fragen erneut nach „URL [http://localhost:8080/rdvmedecins-webapi-v4/app/index.html]“. Wir stellen fest, dass die Anwendung funktioniert.</p>
+<p><span id="refheading112476271450484" name="refheading112476271450484" class="odt-bookmark-anchor"></span></p>
 <h2 id="44-bereitstellung-des-angular-clients-auf-einem-android-tablet">4.4. <span style="color: #4f81bd">Bereitstellung des Angular-Clients auf einem Android-Tablet</span></h2>
-<p>Mit dem [Phonegap]-Tool [http://phonegap.com/] können Sie aus einer HTML/JS/CSS-Anwendung eine ausführbare Datei für Mobilgeräte (Android, iOS, Windows 8 usw.) generieren. Dafür gibt es verschiedene Möglichkeiten. Wir verwenden die einfachste: ein Online-Tool, das auf der Phonegap-Website [http://build.phonegap.com/apps] verfügbar ist.</p>
+<p>Mit dem Tool [Phonegap] [http://phonegap.com/] lässt sich eine ausführbare Datei für mobile Geräte (Android, IoS, Windows 8, ...) aus einer HTML-/JS-/CSS-Anwendung zu erstellen. Es gibt verschiedene Möglichkeiten, dieses Ziel zu erreichen. Wir nutzen die einfachste: ein Online-Tool auf der Phonegap-Website [http://build.phonegap.com/apps].</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000508000001E0E493FB62.png" width="644" height="240" style="display:inline-block; margin:4px;width:17.039cm;height:6.35cm;" class="odt-zoomable" data-zoom-src="images/1000000000000508000001E0E493FB62.png" /></td></tr></table>
 
 <ul>
-  <li>Bevor Sie mit [1] beginnen, müssen Sie möglicherweise ein Konto erstellen;
+  <li>Vor [1] müssen Sie möglicherweise ein Konto erstellen;
   </li>
-  <li>Beginnen Sie in [1];
+  <li>in [1] legen wir los;
   </li>
-  <li>Wählen Sie unter [2] einen kostenlosen Tarif, der nur eine Phonegap-App zulässt;
+  <li>unter [2] wählen Sie einen kostenlosen Tarif aus, der nur eine Phonegap-App zulässt;
   </li>
 </ul>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000053700000104D2C8C565.png" width="668" height="130" style="display:inline-block; margin:4px;width:17.662cm;height:3.44cm;" class="odt-zoomable" data-zoom-src="images/100000000000053700000104D2C8C565.png" /></td></tr></table>
 
 <ul>
-  <li>Laden Sie in [3] die komprimierte Anwendung [4] herunter (der in Abschnitt<a href="#creation-app"><u><span style="color: #0563c1"> 4.2</span></u></a> erstellte Ordner [app] ist komprimiert);
+  <li>unter [3] laden Sie die gezippte App [4] herunter (der in Abschnitt<a href="#creation-app"><u><span style="color: #0563c1"> 4.2</span></u></a> erstellte Ordner [app] ist gezippt);
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000058E000001A8102589EA.png" width="680" height="203" style="display:inline-block; margin:4px;width:17.999cm;height:5.368cm;" class="odt-zoomable" data-zoom-src="images/100000000000058E000001A8102589EA.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000058E000001A8102589EA.png" width="680" height="203" style="display:inline-block; margin:4px;width:17.999cm;height:5.366cm;" class="odt-zoomable" data-zoom-src="images/100000000000058E000001A8102589EA.png" /></td></tr></table>
 
 <ul>
-  <li>Geben Sie in [5] der App einen Namen;
+  <li>in [5], geben Sie der Anwendung einen Namen;
   </li>
-  <li>Erstellen Sie die App in [6]. Dies kann etwa 1 Minute dauern. Warten Sie, bis die Symbole für die verschiedenen mobilen Plattformen anzeigen, dass der Build abgeschlossen ist;
+  <li>in [6] wird die Anwendung erstellt. Dieser Vorgang kann bis zu 1 Minute dauern. Warten Sie, bis die Symbole der verschiedenen mobilen Plattformen anzeigen, dass die Erstellung abgeschlossen ist;
   </li>
 </ul>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000036D000001AB246FEA43.png" width="439" height="214" style="display:inline-block; margin:4px;width:11.603cm;height:5.65cm;" class="odt-zoomable" data-zoom-src="images/100000000000036D000001AB246FEA43.png" /></td></tr></table>
 
 <ul>
-  <li>Es wurden nur die Binärdateien für Android [7] und Windows [8] generiert;
+  <li>Es wurden nur die Android-Binärdatei [7] und die Windows-Binärdatei [8] generiert;
   </li>
-  <li>klicken Sie auf [7], um die Android-Binärdatei herunterzuladen;
-  </li>
-</ul>
-
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000016D000000C8628D9981.png" width="183" height="100" style="display:inline-block; margin:4px;width:4.83cm;height:2.648cm;" class="odt-zoomable" data-zoom-src="images/100000000000016D000000C8628D9981.png" /></td></tr></table>
-
-<ul>
-  <li>in [9] die heruntergeladene [apk]-Binärdatei;
+  <li>Klicken Sie auf [7], um die Android-Binärdatei herunterzuladen;
   </li>
 </ul>
 
-<p>Starten Sie einen [GenyMotion]-Emulator für ein Android-Tablet (siehe Abschnitt<a href="#refheading454551405398942"><u><span style="color: #0563c1"> 6.4</span></u></a>):</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000017900000131A1D5D594.png" width="264" height="213" style="display:inline-block; margin:4px;width:6.98cm;height:5.646cm;" class="odt-zoomable" data-zoom-src="images/100000000000017900000131A1D5D594.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000016D000000C8628D9981.png" width="183" height="100" style="display:inline-block; margin:4px;width:4.83cm;height:2.646cm;" class="odt-zoomable" data-zoom-src="images/100000000000016D000000C8628D9981.png" /></td></tr></table>
 
-<p>Oben starten wir einen Tablet-Emulator mit Android API 16. Sobald der Emulator gestartet ist, </p>
 <ul>
-  <li>entsperren Sie ihn, indem Sie das Schloss (falls vorhanden) zur Seite ziehen und dann loslassen;
+  <li>Laden Sie mit [9] die heruntergeladene Binärdatei [apk] herunter;
   </li>
-  <li>Ziehen Sie die heruntergeladene Datei [PGBuildApp-debug.apk] mit der Maus auf den Emulator und legen Sie sie dort ab. Sie wird dann installiert und ausgeführt;
+</ul>
+
+<p>Starten Sie einen Emulator [GenyMotion] für ein Android-Tablet (siehe Abschnitt<a href="anhange.html#refheading454551405398942"><u><span style="color: #0563c1"> 6.4</span></u></a>):</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000017900000131A1D5D594.png" width="264" height="214" style="display:inline-block; margin:4px;width:6.98cm;height:5.65cm;" class="odt-zoomable" data-zoom-src="images/100000000000017900000131A1D5D594.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
+
+<p>Oben wird ein Tablet-Emulator mit Android 16 (API) gestartet. Sobald der Emulator gestartet ist, </p>
+<ul>
+  <li>entsperren Sie ihn, indem Sie den Riegel (falls vorhanden) an der Seite ziehen und dann loslassen;
+  </li>
+  <li>Ziehen Sie mit der Maus die heruntergeladene Datei „[PGBuildApp-debug.apk]“ auf den Emulator und legen Sie sie dort ab. Die Datei wird daraufhin installiert und ausgeführt;
   </li>
 </ul>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005CB00000287923DA7F0.png" width="680" height="297" style="display:inline-block; margin:4px;width:17.999cm;height:7.853cm;" class="odt-zoomable" data-zoom-src="images/10000000000005CB00000287923DA7F0.png" /></td></tr></table>
 
-<p>Sie müssen die URL in [1] ändern. Geben Sie dazu in einem Eingabeaufforderungsfenster den Befehl [ipconfig] (Zeile 1 unten) ein, wodurch die verschiedenen IP-Adressen Ihres Computers angezeigt werden:</p>
+<p>Sie müssen „URL“ in „[1]“ ändern. Geben Sie dazu in einem Befehlsfenster den Befehl [ipconfig] (Zeile 1 unten) ein, wodurch die verschiedenen Adressen IP Ihres Rechners angezeigt werden:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-text">
 <span class="odt-code-line"><span class="odt-code-line-content">C:\Users\Serge Tahé&gt;<span style="color:#ff3333">ipconfig</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">Configuration IP de Windows</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">Carte réseau sans fil Connexion au réseau local* 15 :</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Statut du média. . . . . . . . . . . . : Média déconnecté</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Suffixe DNS propre à la connexion. . . :</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">Carte Ethernet Connexion au réseau local :</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Suffixe DNS propre à la connexion. . . : ad.univ-angers.fr</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Adresse IPv6 de liaison locale. . . . .: fe80::698b:455a:925:6b13%4</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Adresse IPv4. . . . . . . . . . . . . .: <span style="color:#ff3333">172.19.81.34</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Masque de sous-réseau. . . . . . . . . : 255.255.0.0</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Passerelle par défaut. . . . . . . . . : 172.19.0.254</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">Carte réseau sans fil Wi-Fi :</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Statut du média. . . . . . . . . . . . : Média déconnecté</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">   Suffixe DNS propre à la connexion. . . :</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 </code></pre></div>
 
-<p>Notieren Sie sich entweder die WLAN-IP-Adresse (Zeilen 6–9) oder die IP-Adresse des lokalen Netzwerks (Zeilen 11–17). Verwenden Sie diese IP-Adresse dann in der URL des Webservers:</p>
+<p>Notieren Sie sich entweder die WLAN-Adresse IP (Zeilen 6–9) oder die Adresse IP im lokalen Netzwerk (Zeilen 11–17). Verwenden Sie anschließend diese Adresse IP im URL des Webservers:</p>
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000296000000A328455688.png" width="463" height="114" style="display:inline-block; margin:4px;width:12.261cm;height:3.02cm;" class="odt-zoomable" data-zoom-src="images/1000000000000296000000A328455688.png" /></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;">&nbsp;</td></tr></table>
 
-<p>Sobald dies erledigt ist, stellen Sie eine Verbindung zum Webdienst her:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005F30000039471040E7F.png" width="794" height="477" style="display:inline-block; margin:4px;width:21.001cm;height:12.631cm;" class="odt-zoomable" data-zoom-src="images/10000000000005F30000039471040E7F.png" /></td></tr></table>
+<p>Anschließend stellen Sie eine Verbindung zum Webdienst her:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000005F30000039471040E7F.png" width="794" height="476" style="display:inline-block; margin:4px;width:21.001cm;height:12.599cm;" class="odt-zoomable" data-zoom-src="images/10000000000005F30000039471040E7F.png" /></td></tr></table>
 
-<p>Testen Sie die Anwendung auf dem Emulator. Sie sollte funktionieren. Auf der Serverseite können Sie CORS-Header in der Klasse [ApplicationModel] zulassen oder auch nicht: </p>
+<p>Testen Sie die Anwendung auf dem Emulator. Sie sollte funktionieren. Auf der Serverseite können die Header CORS in der Klasse [ApplicationModel] zugelassen werden oder auch nicht: </p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-text">
-<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// données de configuration</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">    <span style="color:#000000">// Konfigurationsdaten</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="font-weight:bold;color:#7f0055">private</span><span style="color:#000000"> </span><span style="font-weight:bold;color:#7f0055">boolean</span><span style="color:#000000"> </span><span style="color:#0000c0">CORSneeded</span><span style="color:#000000"> = </span><span style="font-weight:bold;color:#7f0055">false</span><span style="color:#000000">;</span></span></span>
 </code></pre></div>
 
-<p>Dies ist für die Android-App irrelevant. Sie läuft nicht in einem Browser. Die Anforderung des CORS-Headers stammt vom Browser, nicht vom Server.</p>
-<p><a id="refheading112968271450484"></a></p>
-<h2 id="45-bereitstellung-des-angular-clients-auf-einem-android-smartphone-emulator">4.5. <span style="color: #4f81bd">Bereitstellung des Angular-Clients auf einem Android-Smartphone-Emulator</span></h2>
-<p>Wir wiederholen den vorherigen Schritt mit einem Smartphone-Emulator. Wir wollen überprüfen, wie sich unser Client auf kleinen Bildschirmen verhält:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000057E0000023E9AA273B1.png" width="680" height="278" style="display:inline-block; margin:4px;width:17.999cm;height:7.348cm;" class="odt-zoomable" data-zoom-src="images/100000000000057E0000023E9AA273B1.png" /></td></tr></table>
+<p>Für die Android-App spielt dies keine Rolle. Diese wird nicht in einem Browser ausgeführt. Die Anforderung der Header „CORS“ stammt jedoch vom Browser und nicht vom Server.</p>
+<p><span id="refheading112968271450484" name="refheading112968271450484" class="odt-bookmark-anchor"></span></p>
+<h2 id="45-bereitstellung-des-angular-clients-auf-dem-emulator-eines-android-smartphones">4.5. <span style="color: #4f81bd">Bereitstellung des Angular-Clients auf dem Emulator eines Android-Smartphones</span></h2>
+<p>Wir wiederholen den vorherigen Vorgang mit einem Smartphone-Emulator. Wir möchten überprüfen, wie sich unser Client auf kleinen Bildschirmen verhält:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000057E0000023E9AA273B1.png" width="680" height="278" style="display:inline-block; margin:4px;width:17.999cm;height:7.347cm;" class="odt-zoomable" data-zoom-src="images/100000000000057E0000023E9AA273B1.png" /></td></tr></table>
 
 <ul>
   <li>In [1] starten wir einen Smartphone-Emulator;
   </li>
-  <li>in [2] und [3] wurde die Navigationsleiste zu einem Menü zusammengeklappt;
+  <li>in [2] und [3] wurde die Navigationsleiste in ein Menü ausgeklappt;
   </li>
 </ul>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/1000000000000545000002E3F9851CE8.png" width="675" height="370" style="display:inline-block; margin:4px;width:17.847cm;height:9.777cm;" class="odt-zoomable" data-zoom-src="images/1000000000000545000002E3F9851CE8.png" /></td></tr></table>
 
 <ul>
-  <li>in [4] melden wir uns an;
+  <li>In [4] meldet man sich an;
   </li>
-  <li>in [5] werden die Liste und der Kalender übereinander statt nebeneinander angezeigt;
+  <li>In [5] befinden sich die Liste und der Kalender untereinander statt nebeneinander;
   </li>
 </ul>
 
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000053400000203A1D37D3B.png" width="666" height="257" style="display:inline-block; margin:4px;width:17.621cm;height:6.812cm;" class="odt-zoomable" data-zoom-src="images/100000000000053400000203A1D37D3B.png" /></td></tr></table>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000053400000203A1D37D3B.png" width="666" height="258" style="display:inline-block; margin:4px;width:17.621cm;height:6.814cm;" class="odt-zoomable" data-zoom-src="images/100000000000053400000203A1D37D3B.png" /></td></tr></table>
 
 <ul>
-  <li>in [6] rufen wir den Kalender auf;
+  <li>In [6] ruft man den Kalender auf;
   </li>
-  <li>in [7] ist ein Teil der Zeitfenster ausgeblendet, da der Bildschirm zu klein ist. Die [footable]-Bibliothek hat dies übernommen;
+  <li>bei [7] ist der Bildschirm zu klein, sodass ein Teil der Zeitfenster verdeckt ist. Diese Aufgabe hat die Bibliothek [footable] übernommen;
   </li>
 </ul>
 
 <table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/10000000000002C3000001E6B549C8DC.png" width="354" height="243" style="display:inline-block; margin:4px;width:9.354cm;height:6.429cm;" class="odt-zoomable" data-zoom-src="images/10000000000002C3000001E6B549C8DC.png" /></td></tr></table>
 
 <ul>
-  <li>in [8] die gleiche Ansicht wie zuvor, diesmal jedoch mit einem Termin.
+  <li>In [8]: dieselbe Ansicht wie zuvor, diesmal jedoch mit einem Termin.
   </li>
 </ul>
 
-<p>Insgesamt passt sich unsere App recht gut an das Smartphone an. Es könnte sicherlich besser sein, aber sie bleibt dennoch benutzerfreundlich.</p>
+<p>Insgesamt passt sich unsere App recht gut an das Smartphone an. Es könnte sicherlich noch besser sein, aber sie ist dennoch nutzbar.</p>
 
 
 
